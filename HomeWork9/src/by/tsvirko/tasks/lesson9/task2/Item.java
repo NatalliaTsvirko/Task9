@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 
-public class Item implements Comparable<Item> {
+public class Item implements Comparable<Store> {
     private int id;
     private String name;
     private int price;
@@ -55,8 +55,10 @@ public class Item implements Comparable<Item> {
         return Objects.hash(id, name, price);
     }
 
+
+
     @Override
-    public int compareTo(Item o) {
+    public int compareTo(Store o) {
         return 0;
     }
 }
