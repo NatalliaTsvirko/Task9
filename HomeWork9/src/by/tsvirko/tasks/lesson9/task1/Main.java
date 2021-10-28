@@ -68,8 +68,7 @@ public class Main {
         }
         System.out.println();
         result.removeAll(list1);
-        System.out.println(result);/*почему из третьего списка удалились элементы 2,7,85
-                                   которые находятся во втором списке?*/
+        System.out.println(result);
         result.isEmpty();
         //System.out.println(result);
         result.clear();
